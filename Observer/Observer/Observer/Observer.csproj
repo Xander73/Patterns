@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IObservable.cs" />
+    <Compile Include="IObserver_.cs" />
     <Compile Include="Observable.cs" />
     <Compile Include="Observer_.cs" />
     <Compile Include="Program.cs" />

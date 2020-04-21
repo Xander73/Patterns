@@ -17,6 +17,10 @@ namespace Observer
 
             obble.newData("newFirst", "newSecond");
 
+            obble.removeObserver(obs2);
+
+            obble.newData("1", "2");
+
             Console.Read();
         }
     }

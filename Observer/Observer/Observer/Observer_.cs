@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Observer
 {
-    class Observer_
+    class Observer_ : IObserver_
     {
         public Observer_ (Observable oble, string n)
         {
