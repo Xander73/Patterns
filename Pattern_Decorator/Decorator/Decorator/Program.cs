@@ -22,9 +22,7 @@ namespace Decorator
             Console.WriteLine("Cost - " + beverage.Cost());
             Console.WriteLine();
 
-            beverage = new Tea();
-            beverage = new Suger(beverage);
-            beverage = new Suger(beverage);
+            beverage = new Suger(new Suger(new Tea()));
 
             Console.WriteLine("Description - " + beverage.Description);
             Console.WriteLine("Cost - " + beverage.Cost());
