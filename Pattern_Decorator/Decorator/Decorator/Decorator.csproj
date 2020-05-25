@@ -49,7 +49,7 @@
     <Compile Include="Beverages\Tea.cs" />
     <Compile Include="Condiments\CondimentDecorator.cs" />
     <Compile Include="Condiments\Milk.cs" />
-    <Compile Include="Condiments\Suger.cs" />
+    <Compile Include="Condiments\Sugar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

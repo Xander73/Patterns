@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Decorator.Condiments
 {
-    class Suger : CondimentDecorator
+    class Sugar : CondimentDecorator
     {
-        public Suger (Beverage b) : base (b.Description + ", Suger", b)
+        public Sugar (Beverage b) : base (b.Description + ", Sugar", b)
         {
-            beverage = b;
+
         }
         
         public override float Cost()

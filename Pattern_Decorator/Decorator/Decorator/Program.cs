@@ -15,14 +15,14 @@ namespace Decorator
         {
             Beverage beverage = new Coffee();
             beverage = new Milk(beverage);
-            beverage = new Suger(beverage);
-            beverage = new Suger(beverage);
+            beverage = new Sugar(beverage);
+            beverage = new Sugar(beverage);
 
             Console.WriteLine("Description - " + beverage.Description);
             Console.WriteLine("Cost - " + beverage.Cost());
             Console.WriteLine();
 
-            beverage = new Suger(new Suger(new Tea()));
+            beverage = new Sugar(new Sugar(new Tea()));
 
             Console.WriteLine("Description - " + beverage.Description);
             Console.WriteLine("Cost - " + beverage.Cost());

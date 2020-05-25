@@ -8,7 +8,10 @@ namespace Decorator.Condiments
 {
     class Milk : CondimentDecorator
     {
-        public Milk (Beverage b) : base (b.Description+ ", Milk", b) { }
+        public Milk (Beverage b) : base (b.Description+ ", Milk", b)
+        {
+
+        }
 
         public override float Cost()
         {
