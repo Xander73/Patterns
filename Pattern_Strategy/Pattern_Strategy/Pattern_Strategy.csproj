@@ -48,13 +48,13 @@
     <Compile Include="Ducks\OrdinaryDuck.cs" />
     <Compile Include="Ducks\WoodDuck.cs" />
     <Compile Include="FlyBehavior\DoNotFly.cs" />
-    <Compile Include="FlyBehavior\FlyBehavior.cs" />
+    <Compile Include="FlyBehavior\IFlyBehavior.cs" />
     <Compile Include="FlyBehavior\FlyWithWings.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VoiceBehavior\ExoticDuck.cs" />
     <Compile Include="VoiceBehavior\OrdinaryDuck.cs" />
-    <Compile Include="VoiceBehavior\VoiceBehavior.cs" />
+    <Compile Include="VoiceBehavior\IVoiceBehavior.cs" />
     <Compile Include="VoiceBehavior\WoodDuck.cs" />
   </ItemGroup>
   <ItemGroup>
