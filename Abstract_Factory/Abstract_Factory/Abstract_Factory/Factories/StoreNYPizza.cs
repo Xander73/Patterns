@@ -9,7 +9,7 @@ namespace Abstract_Factory.Factories
     class StoreNYPizza : IStorePizza
     {
         public PizzaAbstract pizza;
-        IngredientsIFactory ingredientsFactory = new IngredientsNYFactory();
+        IIngredientsIFactory ingredientsFactory = new IngredientsNYFactory();
 
         public PizzaAbstract createPizza(string typePizza)
         {

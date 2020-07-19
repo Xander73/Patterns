@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory.Ingredients
 {
-    class NYCheese : ICheese
+    class ChCheese : ICheeseIngridient
     {
-        public NYCheese ()
+        public ChCheese ()
         {
-            Console.WriteLine("Create NY cheese  ingredient");
+            Console.WriteLine("Create Chicago cheese ingredient");
         }
     }
 }

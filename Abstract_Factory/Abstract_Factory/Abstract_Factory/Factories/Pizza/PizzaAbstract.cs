@@ -10,12 +10,14 @@ namespace Abstract_Factory.Factories
 {
     abstract class PizzaAbstract
     {
-        public ICheese cheese;
+        protected IIngredientsIFactory ingredientsFactory;
+        public ICheeseIngridient cheese;
         public IMargaritaIngredient margaritaIngredient;
         public ISauce sauce;
 
-        public PizzaAbstract ()
+        public PizzaAbstract (IIngredientsIFactory f)
         {
+            ingredientsFactory = f;
             createIngredients();
             Console.WriteLine();
             Bake();

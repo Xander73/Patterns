@@ -8,18 +8,16 @@ namespace Abstract_Factory.Factories
 {
     class PizzaMargarita : PizzaAbstract
     {
-        IngredientsIFactory ingredIentsFactory = new IngredientsNYFactory ();
-        public PizzaMargarita (IngredientsIFactory f)
+        public PizzaMargarita(IIngredientsIFactory f) : base(f)
         {
-            ingredIentsFactory = f;
             Console.WriteLine("Create PizzaMargarita");
             Console.WriteLine();
         }
 
         public override void createIngredients()
         {
-            margaritaIngredient = ingredIentsFactory.createMargaritaIngredient();
-            sauce = ingredIentsFactory.createSauce();
+            margaritaIngredient = ingredientsFactory.createMargaritaIngredient();
+            sauce = ingredientsFactory.createSauce();
         }
     }
 }

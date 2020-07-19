@@ -8,9 +8,9 @@ using Abstract_Factory.Ingredients;
 
 namespace Abstract_Factory.Factories
 {
-    interface IngredientsIFactory
+    interface IIngredientsIFactory
     {
-        ICheese createCheese();
+        ICheeseIngridient createCheese();
         IMargaritaIngredient createMargaritaIngredient();
         ISauce createSauce();
     }

@@ -8,9 +8,9 @@ using Abstract_Factory.Ingredients;
 
 namespace Abstract_Factory.Factories
 {
-    class IngredientsChFactory : IngredientsIFactory
+    class IngredientsChFactory : IIngredientsIFactory
     {
-        public ICheese createCheese()
+        public ICheeseIngridient createCheese()
         {
             return new ChCheese();
         }

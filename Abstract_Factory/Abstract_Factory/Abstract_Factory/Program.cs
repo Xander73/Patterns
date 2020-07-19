@@ -14,7 +14,7 @@ namespace Abstract_Factory
         {
             IStorePizza storeNYPizza = new StoreNYPizza();
 
-            PizzaAbstract pizza = storeNYPizza.createPizza("Margarita");
+            PizzaAbstract pizza = storeNYPizza.createPizza("Cheese");
 
             Console.ReadKey();
         }
